@@ -1,14 +1,12 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 
 export class Portfolio extends Component {
-  static propTypes = {}
+  static propTypes = {};
 
   render() {
-    return (
-      <div id= 'portfolio'></div>
-    )
+    return <div id='portfolio'></div>;
   }
 }
 
-export default Portfolio
+export default Portfolio;

@@ -1,14 +1,12 @@
-import PropTypes from 'prop-types'
-import React, { Component } from 'react'
+import PropTypes from 'prop-types';
+import React, { Component } from 'react';
 
 export class Footer extends Component {
-  static propTypes = {}
+  static propTypes = {};
 
   render() {
-    return (
-      <div></div>
-    )
+    return <div></div>;
   }
 }
 
-export default Footer
+export default Footer;
